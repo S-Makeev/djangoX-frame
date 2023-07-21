@@ -1,0 +1,9 @@
+{% extends '_base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<h1>List of movies: </h1>
+    {% for movie in object_list %}
+   <p> <a href="{% url 'movie_detail' movie.pk %}">{{ movie.title }}</a></p>    
+    {% endfor %}    
+    <button type="submit"><a href="{% url 'movie_create' %}"class="nav-link px-2 link-dark">Add a movie</a></button>
+{% endblock content %}

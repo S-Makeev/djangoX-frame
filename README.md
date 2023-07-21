@@ -1,3 +1,34 @@
+## LAB - Class 28
+
+### Project: Django crud
+
+#### Author: Slava Makeev
+
+### Setup
+[Repository](https://github.com/wsvincent/djangox)
+
+>.env requirements: none
+
+Install dependencies: [dependencies](requirements.txt)
+
+### PORT
+>localhost
+
+How to initialize/run your application 
+
+>python3 manage.py runserver
+
+
+### Tests
+
+How do you run tests?
+
+>python3 manage.py test
+
+
+### Attention
+>Secret key is provided separately.
+
 > A batteries-included Django starter project. To learn more try the books [Django for Beginners](https://djangoforbeginners.com), [Django for APIs](https://djangoforapis.com), and [Django for Professionals](https://djangoforprofessionals.com).
 
 
@@ -116,3 +147,5 @@ Give a ⭐️  if this project helped you!
 ## License
 
 [The MIT License](LICENSE)
+
+

@@ -1,0 +1,12 @@
+{% extends '_base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+    <h1>Movie: {{movie.title}}</h1>
+    <p>User: {{movie.user_name}}</p>
+    <p>Description: {{movie.description}}</p>
+    <p><button type="submit"><a href="{% url 'movie_update' movie.pk %}">Update</a>
+    </button></p>
+    <p><button type="submit"><a href="{% url 'movie_delete' movie.pk %}">Delete</a>
+    </button></p>
+{% endblock content %}
